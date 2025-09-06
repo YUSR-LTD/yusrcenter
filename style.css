@@ -1,0 +1,116 @@
+/* Reset */
+body, h1, h2, p, ul, li {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Arial, Verdana, sans-serif;
+    background: #f0f2f5;
+    color: #333;
+    text-align: center;
+    line-height: 1.6;
+}
+
+/* Navigation */
+header {
+    background-color: #2c3e50;
+    padding: 15px 0;
+}
+
+header ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+header ul li {
+    display: inline;
+    margin: 0 20px;
+}
+
+header ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+    transition: color 0.3s;
+}
+
+header ul li a:hover {
+    color: #1abc9c;
+}
+
+/* Top Logo */
+.top-logo {
+    max-width: 300px;
+    height: auto;
+    margin: 30px 0;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+    border-radius: 10px;
+}
+
+/* Sections */
+main {
+    max-width: 900px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+h1 {
+    font-size: 32px;
+    margin-bottom: 15px;
+    color: #2c3e50;
+}
+
+h2 {
+    font-size: 24px;
+    margin-top: 30px;
+    margin-bottom: 20px;
+    color: #34495e;
+}
+
+p {
+    margin-bottom: 20px;
+}
+
+/* Organizations */
+#organizations ul {
+    list-style: none;
+    padding: 0;
+}
+
+#organizations ul li {
+    margin: 25px auto;
+}
+
+.org-logo {
+    max-width: 150px;
+    height: auto;
+    display: block;
+    margin: 0 auto;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0,0,0,0.15);
+    transition: transform 0.3s;
+}
+
+.org-logo:hover {
+    transform: scale(1.05);
+}
+
+/* Forum */
+.forum-frame {
+    width: 100%;
+    height: 500px;
+    border: 1px solid #ccc;
+    margin-bottom: 40px;
+    border-radius: 8px;
+}
+
+/* Footer */
+footer {
+    background-color: #2c3e50;
+    color: #fff;
+    padding: 15px 0;
+    margin-top: 30px;
+    box-shadow: 0 -2px 5px rgba(0,0,0,0.1);
+}
